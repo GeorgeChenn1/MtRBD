@@ -2,12 +2,12 @@
 
 ## 1. Background
 
-The **MtRBD (Multi-task REM Sleep Behavior Disorder)** model is designed to address a critical challenge in sleep disorder research: simultaneously performing **sleep staging** and **RSWA (REM Sleep Without Atonia)** detection, which are essential tasks for diagnosing **iRBD (idiopathic REM Sleep Behavior Disorder)**. 
+The **MtRBD (Multi-task REM Sleep Behavior Disorder)** model is designed to address a critical challenge in sleep disorder research: simultaneously performing **sleep staging** and **RSWA (REM Sleep Without Atonia)** detection. 
 
 
 ## 2. Model Overview
 
-The **MtRBD model** is built upon the backbone network **MIABNet** (Multi-scale Information Attention Bottleneck Network), which effectively fuses multi-channel EEG and EOG signals across temporal scales. **MIABNet** performs the crucial task of **sleep staging** before the multi-task approach is applied. The **MtRBD** model enhances this architecture by incorporating a **Multi-task Learning (MTL)** framework, enabling joint optimization of both sleep staging and RSWA detection tasks. In addition to **MIABNet**, the model utilizes **Dynamic Feature Enhancement Modules (DFEM)**.
+The **MtRBD model** is built upon the backbone network **MIABNet** (Multi-scale Information Attention Bottleneck Network), which effectively fuses multi-channel PSG signals across temporal scales. The **MtRBD** model enhances this architecture by incorporating a **Multi-task Learning (MTL)** framework, enabling joint optimization of both sleep staging and RSWA detection tasks. In addition to **MIABNet**, the model utilizes **Dynamic Feature Enhancement Modules (DFEM)**.
 
 
 
@@ -17,7 +17,7 @@ We have conducted comprehensive experiments on model parameter ablation and sele
 
 ## 4. Code Availability
 
-We are currently in the process of organizing and preparing the code for open-source release. The code will be made available shortly after we complete the final preparation and application processes. We are committed to providing a clear and efficient framework for researchers and practitioners interested in sleep disorder diagnosis.
+We are currently in the process of organizing and preparing the code for open-source release. The code will be made available shortly after we complete the final preparation and application processes. 
 
 ## 5. Contact Information
 
