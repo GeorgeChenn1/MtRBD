@@ -1,10 +1,12 @@
-# MtRBD Model README
+# MtRBD: Advancing iRBD Analysis with Multi-Task Learning for Joint Sleep Staging and RSWA Detection
 
 ## 1. Background
 
 The **MtRBD (Multi-task REM Sleep Behavior Disorder)** model is designed to address a critical challenge in sleep disorder research: simultaneously performing **sleep staging** and **RSWA (REM Sleep Without Atonia)** detection, which are essential tasks for diagnosing **iRBD (idiopathic REM Sleep Behavior Disorder)**. iRBD is a precursor to neurodegenerative diseases such as Parkinson’s, and RSWA detection is a hallmark phenomenon of RBD. Our model leverages the power of **multi-task learning** to improve the accuracy and efficiency of these tasks, enhancing the potential for clinical applications in diagnosing sleep disorders. While previous models have focused on individual tasks, our framework integrates both sleep staging and RSWA detection, allowing for more comprehensive and robust results.
 
-<img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.1.png" width="600"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.1.png" width="600"/>
+</p>
 
 ## 2. Model Overview
 
@@ -14,7 +16,9 @@ In addition to **MIABNet**, the model utilizes **Dynamic Feature Enhancement Mod
 
 For sleep staging, **MtRBD** achieved impressive results, with particularly high accuracy in classifying stages. For RSWA detection, it demonstrated high accuracy, significantly outperforming previous state-of-the-art models.
 
-<img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.2.png" width="600"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.2.png" width="600"/>
+</p>
 
 ## 3. Model Parameter Ablation and Selection Validation
 
@@ -24,4 +28,11 @@ We have conducted comprehensive experiments on model parameter ablation and sele
 
 We are currently in the process of organizing and preparing the code for open-source release. The code will be made available shortly after we complete the final preparation and application processes. We are committed to providing a clear and efficient framework for researchers and practitioners interested in sleep disorder diagnosis.
 
-## 5. Contact
+## 5. Contact Information
+
+If you have any questions or would like to inquire further about the model, please feel free to contact us:
+
+- **Email**: [Xiaoyuchen23@m.fudan.edu.cn]  
+- **Institution**: [Department of Biomedical Engineering, Fudan University, Shanghai 200433, China]  
+
+We welcome any feedback, contributions, or collaboration inquiries.
