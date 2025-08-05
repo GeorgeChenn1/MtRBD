@@ -5,8 +5,7 @@
 
 The **MtRBD (Multi-task REM Sleep Behavior Disorder)** model is designed to address a critical challenge in sleep disorder research: simultaneously performing **sleep staging** and **RSWA (REM Sleep Without Atonia)** detection, which are essential tasks for diagnosing **iRBD (idiopathic REM Sleep Behavior Disorder)**. iRBD is a precursor to neurodegenerative diseases such as Parkinson’s, and RSWA detection is a hallmark phenomenon of RBD. Our model leverages the power of **multi-task learning** to improve the accuracy and efficiency of these tasks, enhancing the potential for clinical applications in diagnosing sleep disorders. While previous models have focused on individual tasks, our framework integrates both sleep staging and RSWA detection, allowing for more comprehensive and robust results.
 
-![Background Image](https://github.com/GeorgeChenn1/MtRBD/tree/main/Figure/Fig.1.png)
-
+<img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.1.Png" width="600"/>
 ## 2. Model Overview
 
 The **MtRBD model** is built upon the backbone network **MIABNet** (Multi-scale Information Attention Bottleneck Network), which effectively fuses multi-channel EEG and EOG signals across temporal scales. **MIABNet** performs the crucial task of **sleep staging** before the multi-task approach is applied. The **MtRBD** model enhances this architecture by incorporating a **Multi-task Learning (MTL)** framework, enabling joint optimization of both sleep staging and RSWA detection tasks. 
@@ -15,7 +14,7 @@ In addition to **MIABNet**, the model utilizes **Dynamic Feature Enhancement Mod
 
 For sleep staging, **MtRBD** achieved impressive results, with particularly high accuracy in classifying stages. For RSWA detection, it demonstrated high accuracy, significantly outperforming previous state-of-the-art models.
 
-![Model Architecture](https://github.com/GeorgeChenn1/MtRBD/tree/main/Figure/Fig.2.png)
+<img src="https://raw.githubusercontent.com/GeorgeChenn1/MtRBD/main/Figure/Fig.2.Png" width="600"/>
 
 ## 3. Model Parameter Ablation and Selection Validation
 
