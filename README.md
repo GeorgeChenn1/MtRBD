@@ -13,7 +13,7 @@ The **MtRBD model** is built upon the backbone network **MIABNet** (Multi-scale 
 
 In addition to **MIABNet**, the model utilizes **Dynamic Feature Enhancement Modules (DFEM)** and **Self-Attention Mechanisms (SAM)**, which allow the model to focus on the most relevant features across both tasks. The integration of these advanced techniques enables **MtRBD** to achieve superior performance, providing a comprehensive solution for diagnosing sleep disorders. 
 
-For sleep staging, **MtRBD** achieved impressive results, with particularly high accuracy in classifying stages such as N2 (F1-N2: 0.885) and REM (F1-REM: 0.816). For RSWA detection, it demonstrated high accuracy and a macro F1-score of 0.824, significantly outperforming previous state-of-the-art models.
+For sleep staging, **MtRBD** achieved impressive results, with particularly high accuracy in classifying stages. For RSWA detection, it demonstrated high accuracy, significantly outperforming previous state-of-the-art models.
 
 ![Model Architecture](https://github.com/GeorgeChenn1/MtRBD/tree/main/Figure/Fig.2.png)
 
