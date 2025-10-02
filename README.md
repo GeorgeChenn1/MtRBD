@@ -15,11 +15,9 @@ The **MtRBD model** is built upon the backbone network **MIABNet** (Multi-scale 
 
 We have conducted comprehensive experiments on model parameter ablation and selection to validate the impact of each component. These experiments are included in the supplementary materials for further details. You can refer to our **supplementary materials** document, **MtRBD_supplementary_materials.pdf**, for the full analysis of these experiments.
 
-## 4. Code Availability
+. 
 
-We are currently in the process of organizing and preparing the code for open-source release. The code will be made available shortly after we complete the final preparation and application processes. 
-
-## 5. Contact Information
+## 4. Contact Information
 
 If you have any questions or would like to inquire further about the model, please feel free to contact us:
 
